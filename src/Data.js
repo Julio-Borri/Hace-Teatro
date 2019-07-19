@@ -61,7 +61,7 @@ const data = {
     {
       id: 1,
       icono: "fab fa-whatsapp",
-      text: "0341 - 15 683 543 8",
+      text: "0341 - 156835438",
     },
     {
       id: 2,

@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 export default function CardIcono(props) {
   return (
-    <Card className="text-center border-0">
+    <Card className="text-center bg-light">
       <Card.Body>
         <Card.Text className="fb-ic text-dark fa-2x">
           <i className={props.cardHome.icono}></i>

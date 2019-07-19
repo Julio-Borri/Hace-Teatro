@@ -4,9 +4,9 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
-import data from '../Data'
-import TitleH1 from './styled components/TitleH1'
-import BotonesGrupo from './styled components/BotonesGrupo';
+import data from '../data'
+import TitleH1 from './shared-components/TitleH1'
+import BotonesGrupo from './shared-components/BotonesGrupo';
 import BrandLogo from '../img/logoLimpio.png';
 
 

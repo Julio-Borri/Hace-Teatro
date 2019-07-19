@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import data from '../Data';
+import data from '../data';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import LinkItem from './LinkItem';
-import TitleH1 from './styled components/TitleH1';
-import BotonesGrupo from './styled components/BotonesGrupo';
+import TitleH1 from './shared-components/TitleH1';
+import BotonesGrupo from './shared-components/BotonesGrupo';
 import bgImg from '../img/fondoparrafo5.png';
 import Badge from 'react-bootstrap/Badge';
 import Nav from 'react-bootstrap/Nav'
