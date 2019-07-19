@@ -24,7 +24,7 @@ export default function Footer() {
           <Col md={4} className="bg-dark d-flex justify-content-center align-items-center py-2" >          
             <span className="text-white mr-2 font-italic">designed by</span>
             <div className="border rounded-lg px-2 py-1" style={logoStyle}>
-              <span className="text-white text-uppercase mr-1 font-weight-bold">fliying</span>
+              <span className="text-white text-uppercase mr-1 font-weight-bold">flying</span>
               <span className="text-white text-uppercase mr-1 font-weight-bold text-info">cat</span>
             </div>
           </Col>
