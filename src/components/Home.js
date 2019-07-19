@@ -5,17 +5,13 @@ import TitleH1 from './shared-components/TitleH1'
 import bgHeader from '../img/fondoLimpioLD1.jpg';
 import logoHaceTeatro from '../img/logoBrushShadowOrange.png';
 import logoOtoño from '../img/logootoño2.png'
-import CardDeck from 'react-bootstrap/CardDeck';
-import CardIcono from './shared-components/CardIcono';
 import BotonesGrupo from './shared-components/BotonesGrupo';
 import ResponsiveTitle from './shared-components/ResponsiveTitle';
 import Talleres from './Talleres';
+import InfoDiv from './shared-components/InfoDiv';
 
 export default class Home extends Component {
   render() {
-    const cardList = data.cardHome.map(card =>
-      <CardIcono key={card.id} cardHome={card} />)
-
     return (
       <React.Fragment>
         <Container fluid style={headerStyle} className="d-flex align-content-center justify-content-center">
@@ -40,10 +36,8 @@ export default class Home extends Component {
               <img src={logoOtoño} alt="logo otoño" style={{ width: "100%", margin: "50px 0" }} />
             </Row>
           </Container>
-          <CardDeck className="w-50 m-auto">
-            {cardList}
-          </CardDeck>
         </Container>
+        <InfoDiv />
         <Talleres />
         <BotonesGrupo
           item2={data.dataLink[2]}
