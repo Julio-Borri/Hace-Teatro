@@ -19,7 +19,9 @@ class App extends React.Component {
       <Navbar2 />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/Talleres" component={Talleres} />
+        {/*<Route path="/Talleres" component={Talleres} />*/}
+        <Route path="/Talleres" component={(...props) => <Talleres margenTop={"80px"}  />} />
+        
         <Route path="/AboutUs" component={AboutUs} />
         <Route path="/Gallery" component={GallerySlide} />
         <Route path="/Contact" component={Contact} />

@@ -4,6 +4,12 @@ import imgCard3 from './img/galeria4.jpg'
 import imgCard4 from './img/galeria1.jpg'
 import imgCard5 from './img/galeria5.jpg'
 import imgCard6 from './img/galeria3.jpg'
+import imgCard7 from './img/galeria7.jpg'
+import imgCard8 from './img/galeria8.jpg'
+import imgCard9 from './img/galeria9.jpg'
+import imgCard10 from './img/galeria10.jpg'
+import imgCard11 from './img/galeria11.jpg'
+import imgCard12 from './img/galeria12.jpg'
 
 const data = {
   dataLink: [
@@ -80,6 +86,8 @@ const data = {
     texto8: "El taller propone una clase semanal que parte de dos áreas de trabajo: entrenamiento actoral y producción de obras. Cada clase se organiza en dos momentos: una primera hora de entrenamiento, ejercicios para experimentar y aprender a manejar el cuerpo, la voz, la máscara, la energía, el miedo, el ridículo, la emoción, la forma, la creatividad… en el escenario, para aprender a improvisar. Para entender las reglas del juego que es el teatro. Luego, una segunda parte: producción, se aprende a hacer teatro haciendo, por lo que desde el comienzo se encara una producción colectiva, con vistas a exponerla hacia fin de año. ",
     texto9: "Conocé nuestro trabajo!",
     texto10: "Grupo Chatarra de Osamentas Teatro",
+    texto11: "'El Taller es un espacio de entrenamiento actoral orientado a la creación escénica. Un espacio de expresión, diversión, trabajo en grupo, desarrollo de la imaginación y formación actoral. Un espacio para experimentar: lo único que hace falta es animarse, decidirse a probar, arriesgarse a poner la imaginación en juego y el cuerpo en el escenario: actuar, crear junto con otros. '",
+
   },
   talleres: [
     {
@@ -167,6 +175,42 @@ const data = {
       index: 5,
       img: imgCard6,
       alt: "Imagen 6",
+    },
+    {
+      id: 7,
+      index: 6,
+      img: imgCard7,
+      alt: "Imagen 7",
+    },
+    {
+      id: 8,
+      index: 7,
+      img: imgCard8,
+      alt: "Imagen 8",
+    },
+    {
+      id: 9,
+      index: 8,
+      img: imgCard9,
+      alt: "Imagen 9",
+    },
+    {
+      id: 10,
+      index: 9,
+      img: imgCard10,
+      alt: "Imagen 10",
+    },
+    {
+      id: 11,
+      index: 10,
+      img: imgCard11,
+      alt: "Imagen 11",
+    },
+    {
+      id: 12,
+      index: 11,
+      img: imgCard12,
+      alt: "Imagen 12",
     },
   ],
 }

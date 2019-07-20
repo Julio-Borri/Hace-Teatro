@@ -4,7 +4,6 @@ import data from '../data';
 import TitleH1 from './shared-components/TitleH1'
 import bgHeader from '../img/fondoLimpioLD1.jpg';
 import logoHaceTeatro from '../img/logoBrushShadowOrange.png';
-import logoOtoño from '../img/logootoño2.png'
 import BotonesGrupo from './shared-components/BotonesGrupo';
 import ResponsiveTitle from './shared-components/ResponsiveTitle';
 import Talleres from './Talleres';
@@ -31,14 +30,10 @@ export default class Home extends Component {
               {data.textos.texto2}
             </ResponsiveTitle>
           </Row>
-          <Container fluid className="d-flex justify-content-center align-item-center">
-            <Row>
-              <img src={logoOtoño} alt="logo otoño" style={{ width: "100%", margin: "50px 0" }} />
-            </Row>
-          </Container>
         </Container>
         <InfoDiv />
         <Talleres />
+          
         <BotonesGrupo
           item2={data.dataLink[2]}
           item1={data.dataLink[3]}

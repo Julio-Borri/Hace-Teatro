@@ -1,14 +1,8 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Carousel from 'react-bootstrap/Carousel'
-import Image from 'react-bootstrap/Image'
+import { Container, Col, Row, Carousel, Image } from 'react-bootstrap'
 import data from '../data'
 import TitleH1 from './shared-components/TitleH1'
 import BotonesGrupo from './shared-components/BotonesGrupo';
-import BrandLogo from '../img/logoLimpio.png';
-
 
 export default function GallerySlide() {
   return (
@@ -25,31 +19,73 @@ export default function GallerySlide() {
               <Carousel.Item style={carrStyle} className="bg-dark">
                 <Image src={data.galeria[0].img} style={imgStyle} />
                 <Carousel.Caption>
-                  <img src={BrandLogo} width="300" alt="Logo HaceTeatro"/>
+                  <h1 className="text-uppercase">hacé<span className="font-weight-bold"> teatro </span></h1>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item style={carrStyle} className="bg-dark">
                 <Image src={data.galeria[1].img} style={imgStyle} />
                 <Carousel.Caption>
-                  <img src={BrandLogo} width="300" alt="Logo HaceTeatro"/>
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item style={carrStyle} className="bg-dark">
                 <Image src={data.galeria[2].img} style={imgStyle} />
                 <Carousel.Caption>
-                  <img src={BrandLogo} width="300" alt="Logo HaceTeatro"/>
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item style={carrStyle} className="bg-dark">
                 <Image src={data.galeria[3].img} style={imgStyle} />
                 <Carousel.Caption>
-                  <img src={BrandLogo} width="300" alt="Logo HaceTeatro"/>
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item style={carrStyle} className="bg-dark">
                 <Image src={data.galeria[4].img} style={imgStyle} />
-                <Carousel.Caption>
-                  <img src={BrandLogo} width="300" alt="Logo HaceTeatro"/>
+                <Carousel.Caption className="justify-content-center">
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={carrStyle} className="bg-dark">
+                <Image src={data.galeria[5].img} style={imgStyle} />
+                <Carousel.Caption className="justify-content-center">
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={carrStyle} className="bg-dark">
+                <Image src={data.galeria[6].img} style={imgStyle} />
+                <Carousel.Caption className="justify-content-center">
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={carrStyle} className="bg-dark">
+                <Image src={data.galeria[7].img} style={imgStyle} />
+                <Carousel.Caption className="justify-content-center">
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={carrStyle} className="bg-dark">
+                <Image src={data.galeria[8].img} style={imgStyle} />
+                <Carousel.Caption className="justify-content-center">
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={carrStyle} className="bg-dark">
+                <Image src={data.galeria[9].img} style={imgStyle} />
+                <Carousel.Caption className="justify-content-center">
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={carrStyle} className="bg-dark">
+                <Image src={data.galeria[10].img} style={imgStyle} />
+                <Carousel.Caption className="justify-content-center">
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={carrStyle} className="bg-dark">
+                <Image src={data.galeria[11].img} style={imgStyle} />
+                <Carousel.Caption className="justify-content-center">
+                  <h1 className="text-uppercase">hacé <span className="font-weight-bold"> teatro </span></h1>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>

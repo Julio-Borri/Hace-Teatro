@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 export default function CardDark(props) {
   return (
     <Card bg="dark" text="white">
-      <Card.Header>{props.taller.titulo}</Card.Header>
+      <Card.Header className="font-weight-bold">{props.taller.titulo}</Card.Header>
       <Card.Img variant="top" src={props.taller.img} style={imgCard}/>
       <Card.Body>
         <Card.Text>          
