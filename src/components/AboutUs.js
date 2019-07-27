@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from '../Data';
+import data from '../informacion';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import TitleH1 from './shared-components/TitleH1';

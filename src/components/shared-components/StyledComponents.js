@@ -1,5 +1,5 @@
 import styled, { keyframes, } from 'styled-components';
-import { Container, Row, Col, Nav, Navbar, } from 'react-bootstrap';
+import { Row, Col, Nav, Navbar, } from 'react-bootstrap';
 
 
 export const ImgResponsive = styled.img`

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Col, Row, Carousel, Image } from 'react-bootstrap';
-import data from '../Data';
+import data from '../informacion';
 import TitleH1 from './shared-components/TitleH1';
 import BotonesGrupo from './shared-components/BotonesGrupo';
 

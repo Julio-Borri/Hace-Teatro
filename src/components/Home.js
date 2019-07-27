@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import data from '../Data';
+import data from '../informacion';
 import TitleH1 from './shared-components/TitleH1'
 import bgHeader from '../img/fondoLimpioLD1.jpg';
 import logoHaceTeatro from '../img/logoHaceTeatro-dividido.png';
@@ -20,7 +20,7 @@ export default class Home extends Component {
             <img src={logoHaceTeatro} style={imgStyle} alt="Logo HaceTeatro" />
           </Row>
         </Container>
-        <Container fluid className="mt-4">
+        <Container fluid className="mt-4 ">
           <Row>
             <TitleH1 title={data.titulos.titulo1} />
           </Row>

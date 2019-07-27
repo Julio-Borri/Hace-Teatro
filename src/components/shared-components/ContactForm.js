@@ -1,7 +1,7 @@
-import React from 'react'
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
-import data from '../../Data'
+import React from 'react';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import data from '../../informacion';
 
 export default function ContactForm() {
   return (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import BrandLogo from '../img/logoLimpio.png';
-import data from '../Data';
+import data from '../informacion';
 import LinkItem from './LinkItem';
 import styled from 'styled-components';
 import { StyledLinksIcon, } from './shared-components/StyledComponents';
@@ -21,14 +21,14 @@ export default class Navbar2 extends Component {
           <Nav className="ml-auto align-items-center justify-content-center">
             {Links}
             <StyledLinksIcon inputColor="black" href="https://www.facebook.com/TallerHaceTeatro/" >
-            <i class="fab fa-facebook fa-2x mt-1"></i>
-          </StyledLinksIcon>
-          <StyledLinksIcon inputColor="black" href="https://wa.me/5493416835438">
-            <i class="fab fa-whatsapp fa-2x mt-1"></i>
-          </StyledLinksIcon>
-          <StyledLinksIcon inputColor="black" href="https://www.instagram.com/taller_hace_teatro/">
-            <i class="fab fa-instagram fa-2x mt-1"></i>
-          </StyledLinksIcon>
+              <i class="fab fa-facebook fa-2x mt-1"></i>
+            </StyledLinksIcon>
+            <StyledLinksIcon inputColor="black" href="https://wa.me/5493416835438">
+              <i class="fab fa-whatsapp fa-2x mt-1"></i>
+            </StyledLinksIcon>
+            <StyledLinksIcon inputColor="black" href="https://www.instagram.com/taller_hace_teatro/">
+              <i class="fab fa-instagram fa-2x mt-1"></i>
+            </StyledLinksIcon>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

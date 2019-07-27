@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image'
-
+import Image from 'react-bootstrap/Image';
 
 export default function ImgGallery(props) {
   return (
