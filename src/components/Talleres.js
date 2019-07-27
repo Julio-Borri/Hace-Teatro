@@ -25,7 +25,7 @@ export default function Talleres(props) {
       </StyledContainer>
       <Container fluid className="mt-5" style={quoteStyle}>
         <Row className="justify-content-center mb-2" >
-          <Col xs={12} className="text-white text-center px-5 py-4">
+          <Col xs={12} className="text-white text-center py-4">
             {data.textos.texto11}
           </Col>
         </Row>

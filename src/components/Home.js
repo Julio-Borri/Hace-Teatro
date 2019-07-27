@@ -28,7 +28,7 @@ export default class Home extends Component {
             <ResponsiveTitle inputColor="dark" className="text-center w-50">
               {data.textos.texto1}
             </ResponsiveTitle>
-            <ResponsiveTitle inputColor="white" className="text-center w-100" style={h1Divstyle}>
+            <ResponsiveTitle inputColor="white" className="text-center" style={h1Divstyle}>
               {data.textos.texto2}
             </ResponsiveTitle>
           </Row>
@@ -58,7 +58,7 @@ const headerStyle = {
 };
 
 const logoDivStyle = {
-  width: "100vh",
+  width: "100vw",
   margin: "auto",
 };
 
@@ -71,4 +71,5 @@ const h1Divstyle = {
   backgroundPosition: "center",
   backgroundSize: 'cover',
   backgroundAttachment: 'fixed',
+  width: "100%",
 };
