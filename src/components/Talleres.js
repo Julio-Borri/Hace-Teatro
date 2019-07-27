@@ -2,13 +2,15 @@ import React from 'react';
 import { Row, CardDeck, Container, Col, Button } from 'react-bootstrap';
 import data from '../data';
 import TitleH1 from './shared-components/TitleH1';
-import CardDark from './shared-components/CardDark';
+import CardDark2 from './shared-components/CardDark2';
 import styled from 'styled-components';
+import bgQuote from '../img/bgQuote.png';
+import SkewedRow from './shared-components/SkewedRow';
 
 export default function Talleres(props) {
 
-  const cardList = data.talleres.map(taller =>
-    <CardDark key={taller.id} taller={taller} />
+  const cardList = data.talleres.map(item =>
+    <CardDark2 key={item.id} item={item} />
   )
 
   return (
@@ -17,24 +19,26 @@ export default function Talleres(props) {
         <Row>
           <TitleH1 title={data.titulos.titulo2} />
         </Row>
-        <CardDeck>
+        <Row style={{maxWidth: "800px"}} className="m-auto">
           {cardList}
-        </CardDeck>
+        </Row>
       </StyledContainer>
-      <Container fluid className="my-5 bg-dark" style={quoteStyle}>
+      <Container fluid className="mt-5" style={quoteStyle}>
         <Row className="justify-content-center mb-2" >
-          <Col xs={12} className="text-white text-center px-5 pt-5">
+          <Col xs={12} className="text-white text-center px-5 py-4">
             {data.textos.texto11}
           </Col>
         </Row>
-        <Row className="justify-content-center">
-          <Col xs={12} className="text-white text-center mt-3 mb-4">
-            <Button variant="outline-light text-capitalize" href={data.dataLink[2].enlace} size="lg">
+        <SkewedRow />       
+      </Container>
+      <Row className="justify-content-center">
+          <Col xs={12} className="text-white text-center mb-4">
+            <Button variant="outline-dark text-capitalize font-weight-bold my-3" href={data.dataLink[2].enlace} size="lg"
+            style={{fontFamily: "'Caveat', cursive",}}>
               {data.titulos.titulo4}
             </Button>
           </Col>
         </Row>
-      </Container>
     </React.Fragment>
   )
 }
@@ -46,4 +50,8 @@ const StyledContainer = styled(Container)`
 const quoteStyle = {
   fontFamily: "'Caveat', cursive",
   fontSize: "25px",
+  backgroundImage: 'url(' + bgQuote + ')',
+  backgroundPosition: "center",
+  backgroundSize: 'cover',
+  backgroundAttachment: 'fixed',
 }

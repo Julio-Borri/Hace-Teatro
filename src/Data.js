@@ -1,15 +1,17 @@
-import imgCard1 from './img/galeria2.jpg'
-import imgCard2 from './img/galeria6.jpg'
-import imgCard3 from './img/galeria4.jpg'
-import imgCard4 from './img/galeria1.jpg'
-import imgCard5 from './img/galeria5.jpg'
-import imgCard6 from './img/galeria3.jpg'
-import imgCard7 from './img/galeria7.jpg'
-import imgCard8 from './img/galeria8.jpg'
-import imgCard9 from './img/galeria9.jpg'
-import imgCard10 from './img/galeria10.jpg'
-import imgCard11 from './img/galeria11.jpg'
-import imgCard12 from './img/galeria12.jpg'
+import imgCard1 from './img/galeria2.jpg';
+import imgCard2 from './img/galeria6.jpg';
+import imgCard3 from './img/galeria4.jpg';
+import imgCard4 from './img/galeria1.jpg';
+import imgCard5 from './img/galeria5.jpg';
+import imgCard6 from './img/galeria3.jpg';
+import imgCard7 from './img/galeria7.jpg';
+import imgCard8 from './img/galeria8.jpg';
+import imgCard9 from './img/galeria9.jpg';
+import imgCard10 from './img/galeria10.jpg';
+import imgCard11 from './img/galeria11.jpg';
+import imgCard12 from './img/galeria12.jpg';
+import bgCard1 from './img/talleres1dark.png';
+import bgCard2 from './img/talleres2dark.png';
 
 const data = {
   dataLink: [
@@ -26,12 +28,12 @@ const data = {
     {
       id: 3,
       enlace: "/aboutus",
-      name: "Que Hacemos",
+      name: "Qué Hacemos",
     },
     {
       id: 4,
       enlace: "/gallery",
-      name: "Galeria",
+      name: "Galería",
     },
     {
       id: 5,
@@ -43,7 +45,7 @@ const data = {
     titulo1: "taller de teatro",
     titulo2: "talleres",
     titulo3: "contacto",
-    titulo4: "que hacemos?",
+    titulo4: "qué hacemos?",
     titulo5: "galería",
   },
   iconos: [
@@ -76,7 +78,7 @@ const data = {
     },
   ],
   textos: {
-    texto1: "Para Jóvenes Y Adultos, Con O Sin Experiencia.",
+    texto1: "Para Jóvenes Y Adultos",
     texto2: "Coordina: María Cecilia Borri",
     texto3: "El Taller es un espacio de entrenamiento actoral orientado a la creación escénica. Un espacio de expresión, diversión, trabajo en grupo, desarrollo de la imaginación y formación actoral. Un espacio para experimentar: lo único que hace falta es animarse, decidirse a probar, arriesgarse a poner la imaginación en juego y el cuerpo en el escenario: actuar, crear junto con otros. ",
     texto4: "Hacé Teatro!",
@@ -86,31 +88,31 @@ const data = {
     texto8: "El taller propone una clase semanal que parte de dos áreas de trabajo: entrenamiento actoral y producción de obras. Cada clase se organiza en dos momentos: una primera hora de entrenamiento, ejercicios para experimentar y aprender a manejar el cuerpo, la voz, la máscara, la energía, el miedo, el ridículo, la emoción, la forma, la creatividad… en el escenario, para aprender a improvisar. Para entender las reglas del juego que es el teatro. Luego, una segunda parte: producción, se aprende a hacer teatro haciendo, por lo que desde el comienzo se encara una producción colectiva, con vistas a exponerla hacia fin de año. ",
     texto9: "Conocé nuestro trabajo!",
     texto10: "Grupo Chatarra de Osamentas Teatro",
-    texto11: "'El Taller es un espacio de entrenamiento actoral orientado a la creación escénica. Un espacio de expresión, diversión, trabajo en grupo, desarrollo de la imaginación y formación actoral. Un espacio para experimentar: lo único que hace falta es animarse, decidirse a probar, arriesgarse a poner la imaginación en juego y el cuerpo en el escenario: actuar, crear junto con otros. '",
+    texto11: "El Taller es un espacio de entrenamiento actoral orientado a la creación escénica. Un espacio de expresión, diversión, trabajo en grupo, desarrollo de la imaginación y formación actoral. Un espacio para experimentar: lo único que hace falta es animarse, decidirse a probar, arriesgarse a poner la imaginación en juego y el cuerpo en el escenario: actuar, crear junto con otros.",
 
   },
   talleres: [
     {
       id: 1,
       titulo: "Iniciales e Intermedios",
-      img: imgCard1,
-      horario1: "Miércoles de 20:30 a 22:30 hs",
-      horario2: "Jueves de 20:30 a 22:30 hs",
-      horario3: "Sábados de 10:00 a 12:00 hs",
-      horario4: "Miércoles de 10:00 a 12:00 hs",
+      img: bgCard1,
+      horario1: "Lunes de 20:30 a 22:30 hs",
+      horario2: "Miércoles de 20:30 a 22:30 hs",
+      horario3: "Jueves de 20:30 a 22:30 hs",
+      horario4: "Sábados de 10:00 a 12:00 hs",
     },
     {
       id: 2,
       titulo: "Avanzados",
-      img: imgCard6,
+      img: bgCard2,
       horario1: "Martes de 20:30 a 22:30 hs",
     },
-    {
-      id: 3,
-      titulo: "Adultos Mayores",
-      img: imgCard3,
-      horario1: "Jueves de 16:00 a 18:00 hs",
-    },
+    // {
+    //   id: 3,
+    //   titulo: "Adultos Mayores",
+    //   img: imgCard3,
+    //   horario1: "Jueves de 16:00 a 18:00 hs",
+    // },
   ],
   formulario: {
     form1: {

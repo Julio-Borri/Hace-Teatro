@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import data from '../data';
 import TitleH1 from './shared-components/TitleH1'
 import bgHeader from '../img/fondoLimpioLD1.jpg';
-import logoHaceTeatro from '../img/logoBrushShadowOrange.png';
+import logoHaceTeatro from '../img/logoHaceTeatro-dividido.png';
 import BotonesGrupo from './shared-components/BotonesGrupo';
 import ResponsiveTitle from './shared-components/ResponsiveTitle';
 import Talleres from './Talleres';
@@ -33,7 +33,7 @@ export default class Home extends Component {
         </Container>
         <InfoDiv />
         <Talleres />
-          
+
         <BotonesGrupo
           item2={data.dataLink[2]}
           item1={data.dataLink[3]}
@@ -47,7 +47,7 @@ export default class Home extends Component {
 
 //Styles 
 const headerStyle = {
-  height: "70vmin",
+  height: "100vh",
   backgroundImage: 'url(' + bgHeader + ')',
   backgroundPosition: "center",
   backgroundSize: 'cover',
@@ -56,7 +56,7 @@ const headerStyle = {
 };
 
 const logoDivStyle = {
-  width: "80vw",
+  width: "100vh",
   margin: "auto",
 };
 

@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 export default function InfoDiv() {
   return (
-    <Container fluid style={contStyle} className="text-white text-center py-3 bg-dark" >
+    <Container fluid style={contStyle} className="text-dark text-center py-3 bg-white" >
       <Row className="d-flex flex-column ">
         <Col className="fb-ic fa-2x">
           <Responsiveh4 className=""><i className="fab fa-whatsapp mr-2"></i>{data.cardHome[0].text}</Responsiveh4>
