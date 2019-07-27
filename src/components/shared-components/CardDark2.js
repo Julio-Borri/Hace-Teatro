@@ -27,7 +27,6 @@ const CardCol = styled(Col)`
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 300px;
   border-radius: 5px;
   :hover{
