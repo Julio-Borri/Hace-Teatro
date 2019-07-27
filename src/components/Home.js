@@ -8,6 +8,8 @@ import BotonesGrupo from './shared-components/BotonesGrupo';
 import ResponsiveTitle from './shared-components/ResponsiveTitle';
 import Talleres from './Talleres';
 import InfoDiv from './shared-components/InfoDiv';
+import bgQuote from '../img/bgQuote.png';
+
 
 export default class Home extends Component {
   render() {
@@ -65,5 +67,8 @@ const imgStyle = {
 };
 
 const h1Divstyle = {
-  background: "linear-gradient(to right, #32383e, #e16f22)",
+  backgroundImage: 'url(' + bgQuote + ')',
+  backgroundPosition: "center",
+  backgroundSize: 'cover',
+  backgroundAttachment: 'fixed',
 };

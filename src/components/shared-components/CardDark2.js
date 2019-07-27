@@ -4,10 +4,11 @@ import styled from 'styled-components';
 
 export default function CardDark2(props) {
   return (
-    <Col xs={12} md={12} className="text-white text-center font-weight-bold d-flex mb-3">
-      <CardCol className="mb-3 d-flex flex-column justify-content-between" bgImg={props.item.img}>
-        <div className="mt-3 text-uppercase"><h4>{props.item.titulo}</h4></div>
-        <div style={{height: "120px"}} className="d-flex flex-wrap align-items-center justify-content-center mb-4">
+    <Col xs={12} md={12} className="text-white text-center font-weight-bold mb-3">
+        <div className="mt-3 text-uppercase text-dark"><h3>{props.item.titulo}</h3></div>
+
+      <CardCol className="mb-3 d-flex flex-column justify-content-center" bgImg={props.item.img}>
+        <div className="d-flex flex-wrap align-items-center justify-content-center mb-4">
           <StyledH5 className="w-100" style={{ display: props.item.horario1 ? "block" : "none" }} fontSizeHigh="20px" fontSizeMedium="18px" fontSizeSmall="16px" >
             {props.item.horario1}</StyledH5>
           <StyledH5 className="w-100" style={{ display: props.item.horario2 ? "block" : "none" }} fontSizeHigh="20px" fontSizeMedium="18px" fontSizeSmall="16px" >

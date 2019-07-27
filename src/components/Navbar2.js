@@ -4,6 +4,7 @@ import BrandLogo from '../img/logoLimpio.png';
 import data from '../data';
 import LinkItem from './LinkItem';
 import styled from 'styled-components';
+import { StyledLinksIcon, } from './shared-components/StyledComponents';
 
 export default class Navbar2 extends Component {
   render() {
@@ -17,8 +18,17 @@ export default class Navbar2 extends Component {
         </Navbar.Brand>
         <NavToggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" >
-          <Nav className="ml-auto">
+          <Nav className="ml-auto align-items-center justify-content-center">
             {Links}
+            <StyledLinksIcon inputColor="black" href="https://www.facebook.com/TallerHaceTeatro/" >
+            <i class="fab fa-facebook fa-2x mt-1"></i>
+          </StyledLinksIcon>
+          <StyledLinksIcon inputColor="black" href="https://wa.me/5493416835438">
+            <i class="fab fa-whatsapp fa-2x mt-1"></i>
+          </StyledLinksIcon>
+          <StyledLinksIcon inputColor="black" href="https://www.instagram.com/taller_hace_teatro/">
+            <i class="fab fa-instagram fa-2x mt-1"></i>
+          </StyledLinksIcon>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

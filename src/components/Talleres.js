@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, CardDeck, Container, Col, Button } from 'react-bootstrap';
+import { Row, Container, Col, Button } from 'react-bootstrap';
 import data from '../data';
 import TitleH1 from './shared-components/TitleH1';
 import CardDark2 from './shared-components/CardDark2';

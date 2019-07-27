@@ -117,16 +117,16 @@ const data = {
   formulario: {
     form1: {
       label: "Nombre:",
-      placeHolder: "Ingrese su nombre de pila",
+      placeHolder: "Ingresá tu nombre de pila",
       helpText: "",
     },
     form2: {
       label: "Dirección de e-mail:",
-      placeHolder: "Ingrese su email",
-      helpText: "No compartiremos tu email",
+      placeHolder: "Ingresá tu e-mail",
+      helpText: "No compartiremos tu e-mail",
     },
     form3: {
-      label: "Deja tu mensaje:",
+      label: "Dejá tu mensaje:",
       placeHolder: "Tu consulta es bienvenida!",
       helpText: "",
     },

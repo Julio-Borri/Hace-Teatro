@@ -1,7 +1,6 @@
 import styled, { keyframes, } from 'styled-components';
 import { Container, Row, Col, Nav, Navbar, } from 'react-bootstrap';
-import bgJumbotron from '../../img/bgJumbotron.png';
-import bgHeader from '../../img/bg_header2.png'
+
 
 export const ImgResponsive = styled.img`
   height: ${props => props.normalHeight};
@@ -41,25 +40,25 @@ font-size: 18px;
 };
 `
 
-export const MainContainer = styled(Container)`
-  background: url(${bgJumbotron});
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  margin-top: 80px;
-  text-transform: lowercase !important;
-`
+// export const MainContainer = styled(Container)`
+//   background: url(${bgJumbotron});
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+//   margin-top: 80px;
+//   text-transform: lowercase !important;
+// `
 
-export const MainContainer2 = styled(Container)`
-  background: url(${bgJumbotron});
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding-top: 80px;
-  text-transform: lowercase !important;
-`
+// export const MainContainer2 = styled(Container)`
+//   background: url(${bgJumbotron});
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+//   padding-top: 80px;
+//   text-transform: lowercase !important;
+// `
 
 const fadeInConst = keyframes`
 from { opacity: 0; };
@@ -104,7 +103,7 @@ export const StyledLinks2 = styled(Nav.Link)`
 
 export const StyledLinksIcon = styled(Nav.Link)`
 text-transform: uppercase;
-color: black !important;
+color: white !important;
 margin-left: 5px;
 @media screen and (max-width: 992px) {
   border: none;
@@ -177,14 +176,14 @@ export const NavToggle = styled(Navbar.Toggle)`
 :hover { border: 1px solid white !important; };
 `
 
-export const ContHeader = styled(Container)`
-background-image: url(${bgHeader});
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-height: 100vh;
-`
+// export const ContHeader = styled(Container)`
+// background-image: url(${bgHeader});
+// background-position: center;
+// background-repeat: no-repeat;
+// background-attachment: fixed;
+// background-size: cover;
+// height: 100vh;
+// `
 
 export const StyledH5 = styled.h5`
   font-size: ${props => props.fontSizeHigh};

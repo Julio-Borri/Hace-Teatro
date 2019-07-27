@@ -14,15 +14,15 @@ export default function Footer() {
 
   return (
     <React.Fragment>
-      <Container fluid style={footerStyle}>
+      <Container fluid>
         <Row>
-          <Col md={4} className="bg-dark d-flex justify-content-center align-items-center py-2">
+          <Col md={4} className="d-flex justify-content-center align-items-center py-2" style={{background: "black",}}>
             <img src={BrandLogo2} width="200" alt="Logo HaceTeatro" />
           </Col>
-          <Col md={4} className="bg-dark d-flex justify-content-center align-items-center py-2">
+          <Col md={4} className="d-flex justify-content-center align-items-center py-2" style={{background: "black",}}>
             {iconosList}
           </Col>
-          <Col md={4} className="bg-dark d-flex justify-content-center align-items-center py-2" >          
+          <Col md={4} className="d-flex justify-content-center align-items-center py-2" style={{background: "black",}}>          
             <span className="text-white mr-2 font-italic">designed by</span>
             <BrandLogo />
           </Col>
@@ -32,13 +32,3 @@ export default function Footer() {
   )
 }
 
-
-const footerStyle = {
-  // position: "fixed",
-  // bottom: "0",
-}
-
-const logoStyle = {
-  fontFamily: "'Open Sans', sans-serif",
-  fontSize: "20px",
-}

@@ -22,5 +22,5 @@ export default class Contact extends Component {
 
 const contStyle = {
   marginTop: "100px",
-  marginBottom: "150px",
+  marginBottom: "200px",
 }
