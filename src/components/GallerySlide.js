@@ -1,7 +1,7 @@
-import React from 'react'
-import { Container, Col, Row, Carousel, Image } from 'react-bootstrap'
-import data from '../data'
-import TitleH1 from './shared-components/TitleH1'
+import React from 'react';
+import { Container, Col, Row, Carousel, Image } from 'react-bootstrap';
+import data from '../Data';
+import TitleH1 from './shared-components/TitleH1';
 import BotonesGrupo from './shared-components/BotonesGrupo';
 
 export default function GallerySlide() {

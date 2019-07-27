@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import data from '../data';
+import data from '../Data';
 import TitleH1 from './shared-components/TitleH1'
 import bgHeader from '../img/fondoLimpioLD1.jpg';
 import logoHaceTeatro from '../img/logoHaceTeatro-dividido.png';

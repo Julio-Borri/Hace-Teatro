@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import BrandLogo from '../img/logoLimpio.png';
-import data from '../data';
+import data from '../Data';
 import LinkItem from './LinkItem';
 import styled from 'styled-components';
 import { StyledLinksIcon, } from './shared-components/StyledComponents';

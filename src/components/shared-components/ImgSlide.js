@@ -1,5 +1,4 @@
 import React from 'react';
-import Badge from 'react-bootstrap/Badge';
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
 

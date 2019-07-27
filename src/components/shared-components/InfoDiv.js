@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import data from '../../data';
+import data from '../../Data';
 import fondo from '../../img/fondo oscuro.png';
 import styled from 'styled-components';
 

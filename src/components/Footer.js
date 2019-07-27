@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import data from '../data';
+import data from '../Data';
 import BrandLogo2 from '../img/logoLimpio.png';
 import FooterIconos from './shared-components/FooterIconos';
 import BrandLogo from './shared-components/BrandLogo';
