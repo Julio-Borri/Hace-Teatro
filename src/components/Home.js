@@ -58,7 +58,7 @@ const headerStyle = {
 };
 
 const logoDivStyle = {
-  width: "100vw",
+  width: "70vw",
   margin: "auto",
 };
 
@@ -73,3 +73,4 @@ const h1Divstyle = {
   backgroundAttachment: 'fixed',
   width: "100%",
 };
+
